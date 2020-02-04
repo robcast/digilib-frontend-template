@@ -1,0 +1,78 @@
+2020-02-04 18:52:13,291 [main] INFO - ***** Digital Image Library Configuration (version 2.9-SNAPSHOT manif) *****
+2020-02-04 18:52:13,293 [main] DEBUG - readConfig: no param config-file
+2020-02-04 18:52:13,293 [main] DEBUG - XMLMapLoader(digilib-config,parameter,name,value)
+2020-02-04 18:52:13,295 [main] DEBUG - Logger already configured!
+2020-02-04 18:52:13,295 [main] DEBUG - DocuImage (class digilib.image.ImageLoaderDocuImage) ImageLoaderDocuImage 2.3.1
+2020-02-04 18:52:13,295 [main] INFO - DocuImage supported image formats: JPEG 2000, JPG, tiff, bmp, PCX, gif, WBMP, PNG, RAW, JPEG, PNM, tif, TIFF, wbmp, jpeg, jpg, JPEG2000, BMP, pcx, GIF, png, raw, pnm, TIF, jpeg2000, 
+2020-02-04 18:52:13,301 [main] INFO - ***** Digital Image Library Configuration (version 2.9-SNAPSHOT srv async) *****
+2020-02-04 18:52:26,663 [qtp824691524-861] INFO - ***** Digital Image Library Image Scaler Servlet (version 2.9-SNAPSHOT srv async) *****
+2020-02-04 18:52:26,664 [qtp824691524-861] INFO - Scaler uses ImageLoaderDocuImage 2.3.1
+2020-02-04 18:52:26,666 [qtp824691524-861] DEBUG - GetLastModified from 127.0.0.1 for fn=&dw=1373&dh=1106
+2020-02-04 18:52:26,675 [qtp824691524-861] DEBUG - reading directory digilib.io.BaseDirDocuDirectory@2ed252a3 = /Volumes/User/Users/casties/Documents/Eclipse/digilib-frontend-template/target/digilib-frontend-template-2.9-SNAPSHOT/sample-images
+2020-02-04 18:52:26,680 [qtp824691524-861] DEBUG - DocuDirCache.put for  in digilib.io.DocuDirCache@654e055f
+2020-02-04 18:52:26,680 [qtp824691524-861] DEBUG -   returns 1580838745000
+2020-02-04 18:52:26,681 [qtp824691524-861] INFO - GET from 127.0.0.1
+2020-02-04 18:52:26,681 [qtp824691524-861] DEBUG - request: fn=&dw=1373&dh=1106
+2020-02-04 18:52:26,681 [qtp824691524-861] DEBUG - request: fn=&dw=1373&dh=1106
+2020-02-04 18:52:26,684 [qtp824691524-861] DEBUG - identifying (ImageInfo) /Volumes/User/Users/casties/Documents/Eclipse/digilib-frontend-template/target/digilib-frontend-template-2.9-SNAPSHOT/sample-images/digilib-logo.png
+2020-02-04 18:52:26,690 [qtp824691524-861] DEBUG - image size: [64x80]
+2020-02-04 18:52:26,691 [qtp824691524-861] INFO - Planning to load: /Volumes/User/Users/casties/Documents/Eclipse/digilib-frontend-template/target/digilib-frontend-template-2.9-SNAPSHOT/sample-images/digilib-logo.png
+2020-02-04 18:52:26,691 [qtp824691524-861] DEBUG - servlet.worker.imageexecutor isBusy: waiting jobs=0 running jobs=0
+2020-02-04 18:52:26,693 [qtp824691524-861] DEBUG - timeout for worker: 60000ms
+2020-02-04 18:52:26,694 [pool-2-thread-1] DEBUG - ImageWorker starting
+2020-02-04 18:52:26,698 [pool-2-thread-1] DEBUG - quality q1+
+2020-02-04 18:52:26,706 [pool-2-thread-1] DEBUG - Subimage: scale 13.825, 13.825
+2020-02-04 18:52:26,706 [pool-2-thread-1] DEBUG - loadSubimage
+2020-02-04 18:52:26,706 [pool-2-thread-1] DEBUG - get ImageReader for /Volumes/User/Users/casties/Documents/Eclipse/digilib-frontend-template/target/digilib-frontend-template-2.9-SNAPSHOT/sample-images/digilib-logo.png
+2020-02-04 18:52:26,707 [pool-2-thread-1] DEBUG - File type:image/png
+2020-02-04 18:52:26,710 [pool-2-thread-1] DEBUG - ImageIO: reader: class com.sun.imageio.plugins.png.PNGImageReader
+2020-02-04 18:52:26,732 [pool-2-thread-1] DEBUG - loadSubimage: possible color model:ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@1f253eab transparency = 3 has alpha = true isAlphaPre = false color space:java.awt.color.ICC_ColorSpace@1f253eab
+2020-02-04 18:52:26,732 [pool-2-thread-1] DEBUG - loadSubimage: substituted sRGB destination type javax.imageio.ImageTypeSpecifier$Interleaved@44896fba
+2020-02-04 18:52:26,732 [pool-2-thread-1] DEBUG - loadSubimage: loading..
+2020-02-04 18:52:26,753 [pool-2-thread-1] DEBUG - loadSubimage: loaded BufferedImage@76daf761: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@1f253eab transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 64 height = 80 #numDataElements 4 dataOff[0] = 3
+2020-02-04 18:52:26,753 [pool-2-thread-1] DEBUG - SUBSAMP: 1.0: [64x80] -> [64x80]
+2020-02-04 18:52:26,754 [pool-2-thread-1] DEBUG - scale: 13.825
+2020-02-04 18:52:26,754 [pool-2-thread-1] DEBUG - rounding up x scale factor
+2020-02-04 18:52:26,754 [pool-2-thread-1] DEBUG - scaled from 64x80 img=BufferedImage@76daf761: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@1f253eab transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 64 height = 80 #numDataElements 4 dataOff[0] = 3
+2020-02-04 18:52:26,755 [pool-2-thread-1] DEBUG - scale: fixing destination image type
+2020-02-04 18:52:26,860 [pool-2-thread-1] DEBUG - scaled to 885x1106 img=BufferedImage@43d89c56: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@1f253eab transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 885 height = 1106 #numDataElements 4 dataOff[0] = 3
+2020-02-04 18:52:26,860 [pool-2-thread-1] DEBUG - rendered in 166ms
+2020-02-04 18:52:26,860 [pool-2-thread-1] DEBUG - writeImage
+2020-02-04 18:52:26,862 [pool-2-thread-1] DEBUG - ImageIO: writer: class com.sun.imageio.plugins.png.PNGImageWriter
+2020-02-04 18:52:26,862 [pool-2-thread-1] DEBUG - writing PNG
+2020-02-04 18:52:27,049 [pool-2-thread-1] DEBUG - Job done in: 368ms
+2020-02-04 18:52:27,049 [pool-2-thread-1] DEBUG - context complete.
+2020-02-04 18:52:27,049 [pool-2-thread-1] DEBUG - AsyncServletWorker onComplete
+2020-02-04 18:52:27,062 [qtp824691524-855] DEBUG - GetLastModified from 127.0.0.1 for fn=&dw=200&dh=200
+2020-02-04 18:52:27,063 [qtp824691524-855] DEBUG -   returns 1580838745000
+2020-02-04 18:52:27,064 [qtp824691524-855] INFO - GET from 127.0.0.1
+2020-02-04 18:52:27,064 [qtp824691524-855] DEBUG - request: fn=&dw=200&dh=200
+2020-02-04 18:52:27,064 [qtp824691524-855] DEBUG - request: fn=&dw=200&dh=200
+2020-02-04 18:52:27,064 [qtp824691524-855] INFO - Planning to load: /Volumes/User/Users/casties/Documents/Eclipse/digilib-frontend-template/target/digilib-frontend-template-2.9-SNAPSHOT/sample-images/digilib-logo.png
+2020-02-04 18:52:27,064 [qtp824691524-855] DEBUG - servlet.worker.imageexecutor isBusy: waiting jobs=0 running jobs=0
+2020-02-04 18:52:27,064 [qtp824691524-855] DEBUG - timeout for worker: 60000ms
+2020-02-04 18:52:27,065 [pool-2-thread-2] DEBUG - ImageWorker starting
+2020-02-04 18:52:27,065 [pool-2-thread-2] DEBUG - quality q1+
+2020-02-04 18:52:27,065 [pool-2-thread-2] DEBUG - Subimage: scale 2.5, 2.5
+2020-02-04 18:52:27,065 [pool-2-thread-2] DEBUG - loadSubimage
+2020-02-04 18:52:27,065 [pool-2-thread-2] DEBUG - get ImageReader for /Volumes/User/Users/casties/Documents/Eclipse/digilib-frontend-template/target/digilib-frontend-template-2.9-SNAPSHOT/sample-images/digilib-logo.png
+2020-02-04 18:52:27,065 [pool-2-thread-2] DEBUG - File type:image/png
+2020-02-04 18:52:27,065 [pool-2-thread-2] DEBUG - ImageIO: reader: class com.sun.imageio.plugins.png.PNGImageReader
+2020-02-04 18:52:27,065 [pool-2-thread-2] DEBUG - loadSubimage: possible color model:ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@1f253eab transparency = 3 has alpha = true isAlphaPre = false color space:java.awt.color.ICC_ColorSpace@1f253eab
+2020-02-04 18:52:27,066 [pool-2-thread-2] DEBUG - loadSubimage: substituted sRGB destination type javax.imageio.ImageTypeSpecifier$Interleaved@44896fba
+2020-02-04 18:52:27,066 [pool-2-thread-2] DEBUG - loadSubimage: loading..
+2020-02-04 18:52:27,068 [pool-2-thread-2] DEBUG - loadSubimage: loaded BufferedImage@143ee1d5: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@1f253eab transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 64 height = 80 #numDataElements 4 dataOff[0] = 3
+2020-02-04 18:52:27,068 [pool-2-thread-2] DEBUG - SUBSAMP: 1.0: [64x80] -> [64x80]
+2020-02-04 18:52:27,068 [pool-2-thread-2] DEBUG - scale: 2.5
+2020-02-04 18:52:27,068 [pool-2-thread-2] DEBUG - scaled from 64x80 img=BufferedImage@143ee1d5: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@1f253eab transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 64 height = 80 #numDataElements 4 dataOff[0] = 3
+2020-02-04 18:52:27,068 [pool-2-thread-2] DEBUG - scale: fixing destination image type
+2020-02-04 18:52:27,071 [pool-2-thread-2] DEBUG - scaled to 160x200 img=BufferedImage@5503ebee: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@1f253eab transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 160 height = 200 #numDataElements 4 dataOff[0] = 3
+2020-02-04 18:52:27,071 [pool-2-thread-2] DEBUG - rendered in 6ms
+2020-02-04 18:52:27,071 [pool-2-thread-2] DEBUG - writeImage
+2020-02-04 18:52:27,071 [pool-2-thread-2] DEBUG - ImageIO: writer: class com.sun.imageio.plugins.png.PNGImageWriter
+2020-02-04 18:52:27,071 [pool-2-thread-2] DEBUG - writing PNG
+2020-02-04 18:52:27,079 [pool-2-thread-2] DEBUG - Job done in: 15ms
+2020-02-04 18:52:27,079 [pool-2-thread-2] DEBUG - context complete.
+2020-02-04 18:52:27,079 [pool-2-thread-2] DEBUG - AsyncServletWorker onComplete
+2020-02-04 18:52:57,825 [Thread-557] INFO - DigilibServletConfiguration shutting down.
+2020-02-04 18:52:57,825 [Thread-557] INFO - DigilibServletConfiguration shutting down.
