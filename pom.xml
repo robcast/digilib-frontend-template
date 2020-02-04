@@ -18,6 +18,12 @@
 	    <digilib.version>2.9-SNAPSHOT</digilib.version>
         <jetty.version>9.2.28.v20190418</jetty.version>
 	</properties>
+    <repositories>
+        <repository>
+            <id>digilib Maven repository</id>
+            <url>https://robcast.github.io/digilib-repo/maven-repo</url>
+        </repository>
+    </repositories>
 	<dependencies>
         <dependency>
             <!-- this frontend is based on the digilib jquery frontend -->
