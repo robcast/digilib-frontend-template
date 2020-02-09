@@ -20,7 +20,8 @@
 	</properties>
     <repositories>
         <repository>
-            <id>digilib Maven repository</id>
+            <id>digilib-github</id>
+            <name>digilib Maven repository</name>
             <url>https://robcast.github.io/digilib-repo/maven-repo</url>
         </repository>
     </repositories>
